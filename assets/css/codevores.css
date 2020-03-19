@@ -1,0 +1,16 @@
+.button-nav{
+  color:white;
+  background-color: #f52f57;
+  width: auto;
+}
+.button-nav:hover{
+  color:#f52f57;
+  background-color: white;
+  width: auto;
+}
+.button-nav:active {
+  color:white;
+  background-color: #f52f57;
+  box-shadow: 0 5px white;
+  transform: translateY(4px);
+}
