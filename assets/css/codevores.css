@@ -1,3 +1,10 @@
+.c{
+  color:#f52f57;
+}
+
+nav{
+  display: flex;
+}
 .button-nav{
   color:white;
   background-color: #f52f57;
@@ -13,8 +20,4 @@
   background-color: #f52f57;
   box-shadow: 0 5px white;
   transform: translateY(4px);
-}
-
-.c{
-  color:#f52f57;
 }
