@@ -44,26 +44,48 @@ table {
 /*--------Fin reset-----*/
 
 
-body{
-  margin-left: 8%;
-  margin-right: 8%;
+h1{
+  font-size: 2em;
+	padding-left: 10%;
 }
 
+h2{
+  font-size: 2em;
+	margin-top: 60px;
+}
 .c{
   color:#f52f57;
 }
+.logo{
+  width: 50%;
+  font-size: 2em;
+	padding-top: 50px;
+	margin-left: 20px;
+}
+.bg-nav{
+	background-image: url(../images/bg-nav.jpg);
+	height: 200px;
+	width: 100%;
+	repeat:no-repeat;
+}
+.container-marge{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+
 nav{
-  display: flex;
-}
-
-nav .menu1{
   display:inline;
   text-align: right;
+	float:right;
+	margin-top: -100px;
+	width: 80%;
 }
 
-nav .menu2{
+.menu2{
   display:inline;
   text-align: right;
+	float:right;
 }
 .button-nav{
   color:white;
@@ -78,6 +100,24 @@ nav .menu2{
 .button-nav:active {
   color:white;
   background-color: #f52f57;
-  box-shadow: 0 5px white;
-  transform: translateY(4px);
+  box-shadow: 0 2px white;
+  transform: translateY(1px);
+}
+
+.container-visitcard{
+	display: flex;
+	margin-top: 20px;
+	margin-left: 10%;
+	flex-wrap: wrap;
+}
+.card{
+	margin-right: 20px;
+	text-align: center;
+}
+
+
+
+
+footer{
+	margin-top: 200px;
 }
