@@ -45,21 +45,22 @@ table {
 
 
 h1{
-  font-size: 2em;
-	padding-left: 10%;
+  font-size: 3em;
 }
 
 h2{
-  font-size: 2em;
-	margin-top: 60px;
+  font-size: 3em;
+	padding-top: 80px;
+	margin-bottom: 20px;
 }
+
 .c{
   color:#f52f57;
 }
 .logo{
   width: 50%;
   font-size: 2em;
-	padding-top: 50px;
+	padding-top: 30px;
 	margin-left: 20px;
 }
 .bg-nav{
@@ -68,6 +69,7 @@ h2{
 	width: 100%;
 	repeat:no-repeat;
 }
+
 .container-marge{
 	margin-left: 100px;
 	margin-right: 100px;
@@ -90,12 +92,14 @@ nav{
 .button-nav{
   color:white;
   background-color: #f52f57;
-  width: auto;
+  width: 140px;
+	height: 30px;
 }
 .button-nav:hover{
   color:#f52f57;
   background-color: white;
-  width: auto;
+	width: 140px;
+	height: 30px;
 }
 .button-nav:active {
   color:white;
@@ -104,6 +108,49 @@ nav{
   transform: translateY(1px);
 }
 
+.main-container{
+	background-image: url(../images/girly.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	height: 2500px;
+}
+.main-bloc{
+	background-color: ;
+	height: 1500px;
+	width: 100%;
+}
+.rejoignez-bloc{
+	margin-bottom: 50px;
+}
+.rejoignez-text-bloc{
+	padding-top: 5%;
+	padding-left: 15%;
+	font-size: 2em;
+}
+.stage-part,
+.stage-part-2,
+.stage-part-3
+{
+	margin-top: 30px;
+	width: 600px;
+	height: 80px;
+	opacity: 0.83;
+	border-radius: 91px 91px 91px 91px;
+	-moz-border-radius: 91px 91px 91px 91px;
+	-webkit-border-radius: 91px 91px 91px 91px;
+	border: 0px solid #fcb0b3;
+	-webkit-box-shadow: 10px 10px 25px 0px #fcb0b3;
+	-moz-box-shadow: 10px 10px 25px 0px #fcb0b3);
+	box-shadow: 10px 10px 25px 0px #fcb0b3;
+	background: #d1abaf;
+}
+.stage-part-2{
+	margin-left: 450px;
+	margin-top: 40px;
+}
+.stage-part-3{
+	margin-top: 40px;
+}
 .container-visitcard{
 	display: flex;
 	margin-top: 20px;
@@ -113,11 +160,24 @@ nav{
 .card{
 	margin-right: 20px;
 	text-align: center;
+	margin-top: 20px;
+}
+.card-title{
+	font-size: 25px;
+}
+.btn-primary{
+	background-color: #fcb0b3;
+	color:#f52f57;
+}
+.btn-primary:hover{
+	background-color: #f52f57;
+	color:#fcb0b3;
 }
 
 
-
-
 footer{
-	margin-top: 200px;
+	background-image: url(../images/bg-footer-3.png);
+	height: 150px;
+	width: 1200px;
+	background-repeat: no-repeat;
 }
