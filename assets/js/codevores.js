@@ -1,4 +1,6 @@
 
+
+
 function apparaitreCommentaire(){
   document.querySelector('.rejoignez-text-bloc').classList.toggle('rejoignez-text-bloc')
 }
