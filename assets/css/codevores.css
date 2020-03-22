@@ -46,28 +46,31 @@ table {
 
 h1{
   font-size: 3em;
+	width:500px;
 }
 
 h2{
   font-size: 3em;
-	padding-top: 80px;
+	padding-top: 40px;
 	margin-bottom: 20px;
 }
 h3{
 	font-size: 1.5em;
 }
 h4{
-
 }
-
 .c{
   color:#f52f57;
 }
+/*-------*/
+.votre-dev{
+	width:500px;
+}
 .logo{
-  width: 50%;
-  font-size: 2em;
-	padding-top: 30px;
-	margin-left: 20px;
+  width: 100%;
+  font-size: 30px;
+	padding-top: 20px;
+	margin-left: 25%;
 }
 .bg-nav{
 	background-image: url(../images/bg-nav.jpg);
@@ -75,26 +78,40 @@ h4{
 	width: 100%;
 	repeat:no-repeat;
 }
-
 .container-marge{
 	margin-left: 100px;
 	margin-right: 100px;
 }
-
-
 nav{
   display:inline;
-  text-align: right;
-	float:right;
-	margin-top: -100px;
+	margin-top: 20px;
 	width: 80%;
+}
+.ul-menu1{
+	width: 600px;
+	list-style: none;
+	margin-top: 30px;
+	margin-left: 22%;
+}
+.ul-menu1 li{
+	display: table-cell;
+	display: inline-block;
+	margin-left: 15px;
+	font-size: 25px;
+	font-weight: 300;
+	color: #f52f57;
 }
 
 .menu2{
-  display:inline;
-  text-align: right;
-	float:right;
+  float: right;
+	margin-top: -150px;
+	margin-left: 100px;
+	spacing
 }
+.menu2 li{
+	margin-top: 10px;
+}
+
 .button-nav{
   color:white;
   background-color: #f52f57;
@@ -119,26 +136,29 @@ nav{
 	background-image: url(../images/girly.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	height: 2500px;
+	height: 2300px;
 }
 
 .rejoignez-bloc{
-	margin-top: 10px;
-	margin-bottom: 50px;
+	margin-top: 20px;
+	padding-bottom: 80px;
 }
 .rejoignez-text-bloc{
-	margin-top: 40px;
+	margin-top: 5px;
 	padding-top: 5%;
 	padding-left: 15%;
 	font-size: 20px;
 	color:white;
+}
+.stage-part{
+	margin-top: 60px;
 }
 .stage-part,
 .stage-part-2,
 .stage-part-3,
 .stage-part-4,
 .stage-part-5{
-	margin-left: 100px;
+	margin-left: 150px;
   width: 300px;
   height: 80px;
   background: #00798c;
@@ -167,11 +187,12 @@ nav{
 
 .stage-part-2,
 .stage-part-4{
-	margin-left: 550px;
+	margin-left: 590px;
 }
 .commentaire{
 	padding-left: 100px;
 }
+/*--------card-dev-----*/
 .container-visitcard{
 	display: flex;
 	margin-top: 20px;
@@ -186,19 +207,57 @@ nav{
 .card-title{
 	font-size: 25px;
 }
+
 .btn-primary{
-	background-color: #fcb0b3;
-	color:#f52f57;
+	background-color: #00798c;
+	color:white;
 }
 .btn-primary:hover{
-	background-color: #f52f57;
-	color:#fcb0b3;
+	background-color: white;
+	color: #00798c;
 }
 
 
 /*-------ils nous font confiance-----*/
-.logo-partenaires{
+.container-confiance-main{
+	margin-top: 40px;
+}
+.container-confiance{
+	display:flex;
+	margin-left: 10%;
+}
+.container-mission{
+	width:;
+	padding-right: 20px;
+}
 
+.text-mission{
+	padding-top: 30px;
+	font-size: 20px;
+}
+
+/*---------codevores en chiffres----*/
+.container-chiffres-main{
+	margin-top: 40px;
+}
+.container-rond-chiffres{
+	display: flex;
+	margin-bottom: 100px;
+	margin-left: 10px;
+}
+.rond-chiffres{
+	width: 150px;
+	height: 150px;
+	background-color: #00798c;
+	border-radius: 200px 200px 200px 200px;
+	-moz-border-radius: 200px 200px 200px 200px;
+	-webkit-border-radius: 200px 200px 200px 200px;
+	border: 0px solid #00798c;
+	margin-left: 10px;
+}
+.text-chiffres{
+	color:white;
+	padding-top: 10px;
 }
 
 footer{
