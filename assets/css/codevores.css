@@ -271,9 +271,27 @@ nav{
 	font-weight: 600;
 }
 
+/*-------footer*/
 footer{
 	background-image: url(../images/bg-footer-3.png);
 	height: 150px;
 	width: 1200px;
 	background-repeat: no-repeat;
+}
+.container-footer{
+	display: flex;
+	margin-top: 20px;
+	width: 700px;
+}
+.title-footer{
+	margin-right: 40px;
+	width: 250px;
+	color:#f52f57;
+	font-size: 20px
+}
+.cond-gen{
+	margin-left: 150px;
+}
+.li-footer{
+	margin-left: 35px;
 }
