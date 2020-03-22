@@ -50,7 +50,7 @@ h1{
 }
 
 h2{
-  font-size: 3em;
+  font-size: 2em;
 	padding-top: 40px;
 	margin-bottom: 20px;
 }
@@ -200,7 +200,7 @@ nav{
 	flex-wrap: wrap;
 }
 .card{
-	margin-right: 20px;
+	margin-right: 30px;
 	text-align: center;
 	margin-top: 20px;
 }
@@ -223,17 +223,22 @@ nav{
 	margin-top: 40px;
 }
 .container-confiance{
-	display:flex;
 	margin-left: 10%;
 }
-.container-mission{
-	width:;
+.container-mission-1,
+.container-mission-2,
+.container-mission-3
+{
 	padding-right: 20px;
+	display:flex;
+	margin-top: 15px;
 }
 
 .text-mission{
 	padding-top: 30px;
 	font-size: 20px;
+	margin-left: 10px;
+	display: flex;
 }
 
 /*---------codevores en chiffres----*/
@@ -252,12 +257,18 @@ nav{
 	border-radius: 200px 200px 200px 200px;
 	-moz-border-radius: 200px 200px 200px 200px;
 	-webkit-border-radius: 200px 200px 200px 200px;
-	border: 0px solid #00798c;
-	margin-left: 10px;
+
+	-webkit-box-shadow: 8px 6px 5px -4px white;
+	-moz-box-shadow: 8px 6px 5px -4px white;
+	box-shadow: 8px 6px 5px -4px white;
+
+	margin-left: 70px;
 }
 .text-chiffres{
 	color:white;
-	padding-top: 10px;
+	padding-top: 50px;
+	padding-left: 20px;
+	font-weight: 600;
 }
 
 footer{
