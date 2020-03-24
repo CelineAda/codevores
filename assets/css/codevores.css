@@ -41,7 +41,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/*--------Fin reset-----*/
+/*__________Fin reset___________*/
 
 
 h1{
@@ -62,7 +62,12 @@ h4{
 .c{
   color:#f52f57;
 }
-/*-------*/
+.container-marge{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+/*____________*/
+/*------- nav--------*/
 .votre-dev{
 	width:500px;
 }
@@ -73,22 +78,19 @@ h4{
 	margin-left: 25%;
 }
 .bg-nav{
-	background-image: url(../images/bg-nav.jpg);
-	height: 200px;
+	background-color: #f5e3e0;
+	height: 250px;
 	width: 100%;
 	repeat:no-repeat;
 }
-.container-marge{
-	margin-left: 100px;
-	margin-right: 100px;
-}
+
 nav{
   display:inline;
 	margin-top: 20px;
 	width: 80%;
 }
 .ul-menu1{
-	width: 600px;
+	width: 800px;
 	list-style: none;
 	margin-top: 30px;
 	margin-left: 22%;
@@ -100,8 +102,8 @@ nav{
 	font-size: 25px;
 	font-weight: 300;
 	color: #f52f57;
+	text-decoration: none;
 }
-
 .menu2{
   float: right;
 	margin-top: -150px;
@@ -111,7 +113,6 @@ nav{
 .menu2 li{
 	margin-top: 10px;
 }
-
 .button-nav{
   color:white;
   background-color: #f52f57;
@@ -130,15 +131,42 @@ nav{
   box-shadow: 0 2px white;
   transform: translateY(1px);
 }
-/*-------fin nav--------*/
+/*__________fin nav__________*/
 
+/*-------footer*/
+footer{
+	background-image: url(../images/bg-footer-3.png);
+	height: 150px;
+	width: 1200px;
+	background-repeat: no-repeat;
+}
+.container-footer{
+	display: flex;
+	margin-top: 20px;
+	width: 700px;
+}
+.title-footer{
+	margin-right: 40px;
+	width: 250px;
+	color:#f52f57;
+	font-size: 20px
+}
+.cond-gen{
+	margin-left: 150px;
+}
+.li-footer{
+	margin-left: 35px;
+}
+/*___________fin footer___________*/
+/*----------index------*/
 .main-container{
-	background-image: url(../images/girly.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	height: 2300px;
 }
-
+.container-color-rejoignez{
+	background-image: url(../images/girly.jpg);
+}
 .rejoignez-bloc{
 	margin-top: 20px;
 	padding-bottom: 80px;
@@ -183,8 +211,6 @@ nav{
   border-right: 26px solid #00798c;
   border-bottom: 13px solid transparent;
 }
-
-
 .stage-part-2,
 .stage-part-4{
 	margin-left: 590px;
@@ -193,6 +219,10 @@ nav{
 	padding-left: 100px;
 }
 /*--------card-dev-----*/
+.montainer-team-dev{
+
+}
+
 .container-visitcard{
 	display: flex;
 	margin-top: 20px;
@@ -207,7 +237,6 @@ nav{
 .card-title{
 	font-size: 25px;
 }
-
 .btn-primary{
 	background-color: #00798c;
 	color:white;
@@ -216,7 +245,6 @@ nav{
 	background-color: white;
 	color: #00798c;
 }
-
 
 /*-------ils nous font confiance-----*/
 .container-confiance-main{
@@ -233,7 +261,6 @@ nav{
 	display:flex;
 	margin-top: 15px;
 }
-
 .text-mission{
 	padding-top: 30px;
 	font-size: 20px;
@@ -257,11 +284,9 @@ nav{
 	border-radius: 200px 200px 200px 200px;
 	-moz-border-radius: 200px 200px 200px 200px;
 	-webkit-border-radius: 200px 200px 200px 200px;
-
 	-webkit-box-shadow: 8px 6px 5px -4px white;
 	-moz-box-shadow: 8px 6px 5px -4px white;
 	box-shadow: 8px 6px 5px -4px white;
-
 	margin-left: 70px;
 }
 .text-chiffres{
@@ -270,28 +295,8 @@ nav{
 	padding-left: 20px;
 	font-weight: 600;
 }
-
-/*-------footer*/
-footer{
-	background-image: url(../images/bg-footer-3.png);
-	height: 150px;
-	width: 1200px;
-	background-repeat: no-repeat;
-}
-.container-footer{
-	display: flex;
-	margin-top: 20px;
-	width: 700px;
-}
-.title-footer{
-	margin-right: 40px;
-	width: 250px;
-	color:#f52f57;
-	font-size: 20px
-}
-.cond-gen{
-	margin-left: 150px;
-}
-.li-footer{
-	margin-left: 35px;
+/*______________ fin index______*/
+/*-------connexioncodevores-------*/
+.container-connexion{
+	display: inline-flex;
 }
