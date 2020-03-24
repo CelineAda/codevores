@@ -203,7 +203,6 @@ footer{
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
-	opacity: 0.73;
 }
   .stage-part:before,
 	.stage-part-2:before,
@@ -258,29 +257,11 @@ footer{
 /*-------ils nous font confiance-----*/
 .container-confiance-main{
 	margin-top: 40px;
+
 }
 .container-confiance{
 	margin-left: 10%;
 	width:900px;
-}
-.container-mission-main{
-	display: flex;
-}
-.container-mission{
-	padding-right: 20px;
-	display:flex;
-	margin-top: 15px;
-}
-.container-mission-2{
-	padding-right: 20px;
-	display:flex;
-	margin-top: 15px;
-}
-
-.text-mission{
-	padding-top: 30px;
-	font-size: 20px;
-	margin-left: 10px;
 	display: flex;
 }
 
