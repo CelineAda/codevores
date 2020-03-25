@@ -23,7 +23,7 @@
             <li class="home">⭐<a href="indexcodevores.html">Home</a></li>
             <li>⭐Qui sommes-nous</li>
             <li>⭐Recruteur</li>
-            <li>⭐FAQ/Contact⭐</li>
+            <li>⭐Aide</li>
           </ul>
         </nav>
         <aside class="menu2">
@@ -35,38 +35,77 @@
       </div>
     </header>
 
-    <div class="main-container">
-      <div class="container-marge">
-        <div class="container-connexion">
-          <h2>⭐ <span class="c">C</span>onnectez-vous</h2>
-          <div class="Identifiant">
-            <h3>Identifiant</h3>
-            <input type="email" name="" value="email">
-            <h3>Mot de pass</h3>
-            <input type="text" name="" value="">
+    <div class="container-marge">
+     <h2>⭐Connexion</h1>
+     <form>
+
+         <fieldset >
+           <div class="fieldset-1">
+           <div class="form-group">
+             <h3 class="identifiant"><label for="email">Identifiant</label></h3>
+             <input type="email" class="form-control" id="email" placeholder="email">
+           </div>
+           <div class="form-group">
+             <h3 class="identifiant"><label for="number">Mot de passe</label>
+             <input type="email" class="form-control" id="email" placeholder=""></h3>
+           </div>
+              </div>
+         </fieldset>
+
+     </form>
+    </div>
+
+    <div class="container-marge-gauche">
+      <div class="container-inscription">
+        <h2>⭐Inscription</h1>
+        <form>
+         <fieldset>
+           <div class="container-nom">
+             <div class="form-group">
+               <h3 class="identifiant"><label for="nom">Votre nom</label></h3>
+               <input type="text" class="form-control" id="nom" placeholder="">
+             </div>
+             <div class="form-group">
+               <h3 class="identifiant"><label for="nom">Votre prénom</label></h3>
+               <input type="text" class="form-control" id="nom" placeholder="">
+             </div>
+           </div>
+           <div class="container-mail">
+             <div class="form-group">
+               <h3 class="identifiant"><label for="email">Entrez votre mail</label>
+               <input type="email" class="form-control" id="email" placeholder=""></h3>
+             </div>
+             <div class="form-group">
+               <h3 class="identifiant"><label for="nom">Choisissez un mot de passe</label>
+               <input type="text" class="form-control" id="nom" placeholder=""></h3>
+             </div>
+           </div>
+          <div class="form-group">
+           <div class="container-langage">
+             <h3 class="identifiant"><label   for="selection">Langages utilisés</label></h3>
+             <select id="selection" class="form-control">
+               <option value="">Front</option>
+               <optgroup label="Groupe d'options 1">
+                 <option value="">JQuery</option>
+                 <option value="">Angular JS</option>
+               </optgroup>
+               <optgroup label="Back">
+                 <option value="">PHP</option>
+                 <option value="">Ruby</option>
+                 <option value="">Python</option>
+               </optgroup>
+               </select>
+              </div>
           </div>
-        </div>
+           <div class="form-group">
+             <div class="container-cv">
+               <h3 class="identifiant"><label for="fichier">Téléchargez votre cv</label></h3>
+               <input type="file" class="form-control-file" id="fichier">
+             </div>
+           </div>
+       </fieldset>
+       </form>
       </div>
-
-      <div class="container-marge">
-        <div class="container-inscription">
-          <h2>⭐ Rejoignez notre Team!</h2>
-          <div class="Identifiant">
-            <h3>Nom</h3>
-            <input type="text" name="" value="">
-            <h3>Prénom</h3>
-            <input type="text" name="" value="">
-            <h3>Mot de passe</h3>
-            <input type="text" name="" value="">
-            <h3>Confirmez votre mot de passe</h3>
-            <input type="text" name="" value="">
-          </div>
-        </div>
-      </div>
-
-
-
-
     </div>
 
     <footer>
