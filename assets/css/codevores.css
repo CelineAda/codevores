@@ -92,8 +92,8 @@ nav{
 .ul-menu1{
 	width: 800px;
 	list-style: none;
-	margin-top: 30px;
-	margin-left: 22%;
+	margin-top: 50px;
+	margin-left: 18%;
 }
 .ul-menu1 li{
 	display: table-cell;
@@ -101,7 +101,7 @@ nav{
 	margin-left: 15px;
 	font-size: 25px;
 	font-weight: 300;
-	color: #f52f57;
+	color: #00798c;
 	text-decoration: none;
 }
 .menu2{
@@ -168,7 +168,7 @@ footer{
 .container-marge-gauche{
 	background-color:#e5e5e5;
 	width: auto;
-	height: 700px;
+	height: auto;
 
 }
 .container-rejoignez{
@@ -299,6 +299,33 @@ footer{
 }
 /*______________ fin index______*/
 /*-------connexioncodevores-------*/
-.container-connexion{
-	display: inline-flex;
+.form-control{
+	width: 280px;
+}
+.form-group{
+	margin-left: 5vh;
+}
+.fieldset-1{
+	display: flex;
+	padding-left: 20px;
+}
+.identifiant{
+	color: #00798c;
+}
+.container-inscription{
+	margin-left: 100px;
+	margin-right: 100px;
+
+}
+.container-nom,
+.container-mail
+{
+	display: flex;
+	margin-left: 5vh;
+}
+.container-langage{
+	margin-left: 5vh;
+}
+.container-cv{
+	margin-left: 5vh;
 }
